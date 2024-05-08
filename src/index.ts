@@ -14,7 +14,7 @@ async function main() {
       Poloniex: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.Poloniex),
       WhiteBit: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.WhiteBit),
       Kraken: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.Kraken),
-      Kuna: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.Kuna),
+      // Kuna: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.Kuna),
       Kucoin: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.Kucoin),
       GateIo: await mon.measureFuncAsyncWithReturnCheck(checkIsAliveByExchange, true, EExchanges.GateIo),
     }
